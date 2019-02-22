@@ -1,0 +1,298 @@
+#top{
+    width: 100%;
+    height: 0.3rem;
+
+}
+.Topcontenter{
+    width: 7.5rem;
+    height: 100%;
+    padding: 0 0.15rem;
+    margin: 0 auto;
+    background: #ec971f;
+}
+.Topcontenter img{
+    width: 7.2rem;
+}
+.contenter{
+    width: 7.5rem;
+    height: 100%;
+    min-width: 1px;
+    margin: 0 auto;
+    background: #31b0d5;
+}
+#header{
+    width: 100%;
+    height: 100%;
+}
+.tarBar{
+    width: 7.5rem;
+    height: 5.2rem;
+    background: #ec971f;
+    padding: 0.2rem;
+    margin:0 auto;
+}
+.tarBar h2{
+    font-weight: 300;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.tarBar p{
+    font-size: 14px;
+    color: whitesmoke;
+}
+.title{
+    width: 7.1rem;
+    height: 1rem;
+    margin:  0 auto;
+    /*background: #f67a82;*/
+    text-align: center;
+    line-height: 1rem;
+}
+.title img{
+    float: left!important;
+    margin-top: 0.26rem;
+}
+.title span{
+    font-size: 18px;
+    font-weight: 200;
+    color: whitesmoke;
+}
+
+.info{
+    width: 7.1rem;
+    height: 1.8rem;
+    margin:  0 auto;
+    padding: 0.01rem;
+    border-radius: 10px;
+    margin-top: 0.3rem;
+    background: whitesmoke;
+
+}
+.time{
+    width: 94%;
+    height: 1rem;
+    margin-left: 0.1rem;
+    line-height: 0.5rem;
+    /*background: #cccccc;*/
+    border-bottom: 2px dotted #cccccc;
+
+}
+.time1{
+    width: 94%;
+    height: 0.6rem;
+    margin-left: 0.1rem;
+    line-height: 0.6rem;
+    padding-right: 0.2rem;
+    /*background: #f67a82;*/
+}
+.info p span{
+    color: red;
+    font-size: 14px;
+    float: right;
+    font-weight: 400;
+}
+.info p{
+    margin-left: 0.1rem;
+    font-size: 20px;
+    color: #333333;
+    font-weight:400;
+    margin-top: 0.1rem;
+    line-height: 0.5rem;
+}
+
+#Content{
+
+    width: 100%;
+    height: 720px;
+    margin: 0 auto;
+    /*background: #f67a82;*/
+    position: absolute;
+    top: 4.7rem;
+
+}
+.tarCar{
+    width: 7.1rem;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: whitesmoke;
+}
+.Nar{
+    width: 90%;
+    height: 40px;
+    border-bottom: 2px dotted #cccccc;
+    margin-bottom: 5px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #b0b0b0;
+}
+.tarCarList{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+.coin{
+    width:6.5rem ;
+    height: 90px;
+    margin:0  0.3rem 0.2rem ;
+    /*background: #f67a82;*/
+}
+.left{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0.2rem;
+    float: left;
+    /*background: #cccccc;*/
+}
+.left img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.right{
+    width:4.9rem ;
+    height: 100%;
+    float: right;
+    padding: 0.2rem;
+    /*background: #ec971f;*/
+    position: relative;
+}
+.box1{
+    width: 1.6rem;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 1.2rem;
+    /*background: red;*/
+}
+.box1 h2{
+    font-size: 12px;
+    color: grey;
+    font-weight: 600;
+
+}
+.box2{
+    width: 2.9rem;
+    height: 100%;
+    float: left;
+    /*background: darkblue;*/
+    margin: 0 auto;
+}
+.cheng{
+    width: 1.3rem;
+    height: 100%;
+    float: left;
+    margin-top:-0.05rem;
+    display: flex;
+    justify-content: left;
+    margin-left: 0.3rem;
+    align-items: center;
+}
+.money{
+    height: 100%;
+    float: right;
+    line-height: 1.2rem;
+    padding-right: 0.2rem;
+}
+.xiaoji{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0.3rem;
+}
+.hongbao{
+    width:90%;
+    height: 60px;
+    margin-left: 0.1rem;
+    border-top: 2px dotted #cccccc;
+}
+.select{
+    width:90%;
+    height: 60px;
+    margin-left: 0.1rem;
+    border-bottom: 2px dotted #cccccc;
+}
+.select1{
+    width:90%;
+    height: 60px;
+    margin-left: 0.1rem;
+    /*border-bottom: 2px dotted #cccccc;*/
+}
+.hongbao h3,.select h3,.select1 h3{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0.8rem;
+    line-height: 60px;
+    color: #333333;
+}
+.enter,.enter1{
+    width: 60%;
+    height: 100%;
+    line-height: 60px;
+    float: right;
+    /*background: #f67a82;*/
+}
+.hongbao img,.enter img{
+    float: right;
+    margin-top: 0.44rem;
+}
+.hongbao span,.select span,.select1 span{
+     float: right;
+     font-size: 16px;
+     color: #cccccc;
+     margin-right: 0.2rem;
+ }
+.enter1 span{
+    float: right;
+    font-size: 16px;
+    color: #cccccc;
+    margin-left: 0.1rem;
+}
+.nexttarCar{
+    width: 7.1rem;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottom{
+    width: 100%;
+    height:1.5rem;
+    margin-top: 0.24rem;
+    position: fixed;
+    bottom: 0;
+}
+.littlebox{
+    width:7.5rem ;
+    height: 1.5rem;
+    background: whitesmoke;
+    margin: 0 auto;
+    padding: 0.3rem 0.8rem 0.3rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+

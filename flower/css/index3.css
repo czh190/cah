@@ -1,0 +1,347 @@
+html,body,h1,h2,h3,h4,h5,h6,p,pre,ol,ul,li,form,input,textarea{
+    margin: 0;
+    padding: 0;
+    list-style: none;   /*列表样式*/
+}
+body{
+    font: 16px "Microsoft YaHei UI", sans-serif;
+    color: #333333;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+div{
+    width: 100%;
+    height: 79px;
+}
+/*默认样式*/
+/*<!--nar样式-->*/
+.nav{
+    width: 100%;
+    height: 79px;
+    background: white;
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    top: 0;
+
+
+}
+/*<!--narContent样式-->*/
+.navContent{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*<!--logo样式-->*/
+.logo{
+    width:150px;
+    height:50px;
+    float: left;
+    margin-top: 14px;opacity: 0.5;
+}
+/*行内元素*/
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*img样式*/
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navList li{
+    width: 86px;
+    height: 100%;
+    float: left;
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: color linear .5s;
+}
+.navList li a:hover{
+    color: #16b0bc;
+}
+/*<!--narList样式-->*/
+.navList{
+    width: 602px;
+    height: 100%;
+    float:right ;
+
+}
+
+.title{
+    width: 100%;
+    height: 100px;
+    background: whitesmoke;
+    text-align: center;
+    line-height: 100px;
+}
+.title p{
+    font-size: 35px;
+    font-weight: 500;
+    color:#f67a82;;
+
+}
+.banner{
+    width: 100%;
+    height:100%;
+    padding: 30px 0;
+    background: whitesmoke;
+
+}
+.Content{
+    width: 100%;
+    height: 100%;
+    /*background: #ec971f;*/
+    display: flex;
+    justify-content: center;
+
+}
+.leftContent{
+    width: 1100px;
+    height: 100%;
+    padding: 30px;
+    background: white;
+}
+.List{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.liList1 {
+    width: 100%;
+    height: 100px;
+    /*position: fixed;*/
+    border-bottom: 2px solid #f0f2f5;
+}
+.liList2 {
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid #f0f2f5;
+}
+.box{
+    width: 1000px;
+    height: 80px;
+    background: honeydew;
+    border: 3px solid #f0f2f5;
+}
+.box2{
+    width: 1000px;
+    height: 120px;
+    background: honeydew;
+    border: 3px solid #f0f2f5;
+}
+.box h4{
+    text-align: left;
+    line-height: 80px;
+    margin-left: 30px;
+    font-size: 18px;
+    color: #333333;
+}
+.box2 h4{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 18px;
+    color: #333333;
+    padding:35px 0;
+}
+.liList3 {
+    width: 100%;
+    height: 240px;
+    border-bottom: 2px solid #f0f2f5;
+}
+.tupian{
+    width: 100px;
+    height: 100px;
+    /*background: #cccccc;*/
+    float: left;
+    display: flex;
+    justify-content: space-around;
+
+}
+.liList1 img,.liList2 img,.liList3 img{
+    width: 50px;
+    height: 50px;
+    float: left;
+   margin-top: 25px;
+}
+
+.information{
+    width: 1000px;
+    height: 30px;
+    float: left;
+    margin-top: 20px;
+    /*background: #cccccc;*/
+}
+.pull-right{
+    color: #737373;
+    float: right!important;
+}
+.information h4{
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+}
+.information p{
+    color: #737373;
+    line-height: 55px;
+}
+.rightContent{
+    width:330px;
+    height:480px;
+    background: white;
+    padding: 30px;
+    margin-left: 30px;
+}
+.sousuo{
+    width: 100px;
+    height: 100px;
+}
+.sousuoList{
+    width: 305px;
+    height: 36px;
+    border: 2px solid #cccccc;
+    font-size: 14px;
+    padding: 6px 15px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+.sousuoList1{
+    width: 305px;
+    height: 100px;
+    border: 2px solid #cccccc;
+    font-size: 14px;
+    padding: 6px 15px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.sousuoList2{
+    width: 180px;
+    height: 36px;
+    border: 2px solid #cccccc;
+    font-size: 14px;
+    padding: 6px 15px;
+    /*float: left;*/
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.sousuoList span{
+    color: #737373;
+}
+.sousuoList img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    float: right;
+}
+.yanzhenma img{
+    width: 80px;
+    height: 25px;
+  float:right;
+  }
+
+
+.submit{
+    width: 335px;
+    height: 48px;
+    font-size: 14px;
+    color: white;
+    background: #249aff;
+}
+.submit p{
+    text-align: center;
+    line-height: 48px;
+}
+.tuijian{
+    width: 335px;
+    height: 260px;
+    margin-top: 20px;
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+}
+.tuijianList{
+    width: 335px;
+    height: 50px;
+    border: 2px solid #cccccc;
+}
+.tuijianList a p{
+    font-size: 20px;
+    font-weight:400;
+    margin-left: 10px;
+    line-height: 50px;
+}
+.tuijianList a p:hover,.rightContent a h4:hover{
+    color: #249aff;
+    text-decoration: underline;
+}
+
+.tuijian h4,.rightContent h4{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+/*<!--narContent样式-->*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    margin: 0 auto;
+    padding: 10px 0 20px;
+    margin-top: 20px;
+
+}
+.bottom .TextContent{
+    width:1170px ;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+    /*background: white;*/
+}
+.TextContent img{
+    width: 30px;
+    height: 30px;
+    padding:10px;
+}
+.TextContent p{
+    font-size: 14px;
+    color: #737373;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.TextContent pre a{
+    color: #249aff;
+    font-size: 16px;
+    line-height: 5px;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+.TextContent pre a:hover{
+    text-decoration: underline;
+
+}

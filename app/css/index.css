@@ -1,0 +1,334 @@
+#top{
+    width: 100%;
+    height: 0.3rem;
+
+}
+.Topcontenter{
+    width: 7.5rem;
+    height: 100%;
+    padding: 0 0.15rem;
+    margin: 0 auto;
+    background: #ec971f;
+}
+.Topcontenter img{
+    width: 7.2rem;
+}
+.contenter{
+    width: 7.5rem;
+    height: 100%;
+    min-width: 1px;
+    margin: 0 auto;
+    background: #31b0d5;
+}
+
+#header{
+    width: 100%;
+    height: 0.81rem;
+    /*background: palevioletred;*/
+}
+
+.tarBar{
+    width:100% ;
+    height: 100%;
+    background: #ec971f;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+/*#tarBar:before{
+     content: "";
+     width: 0.42rem;
+     display: block;
+
+ }*/
+.searchBox{
+    width: 5rem;
+    height: 0.42rem;
+    background: white;
+    border-radius: 0.21rem;
+    margin-left: 1.17rem;
+}
+.scanBox{
+    width: 0.42rem;
+    height: 0.42rem;
+    background: white;
+    border-radius: 50%;
+    margin-left: 0.34rem;
+    padding-top: 0.06rem;
+
+}
+.search{
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-top: 0.1rem;
+    float: left;
+    font-family: "iconfont";
+    margin-left: 0.2rem;
+    color: rgba(0,0,0,0.6);
+}
+.tarBar input{
+    border: none;
+    width: 3.8rem;
+    height: 0.42rem;
+    float: left;
+    /*background: #5cb85c;*/
+    /*margin-top: 0.02rem;*/
+    color: rgba(0,0,0,0.6);
+
+}
+.camera{
+    width: 0.33rem;
+    height: 0.42rem;
+    margin-top: 0.1rem;
+    float: right;
+    margin-right:0.1rem;
+    font-family: "iconfont";
+    color: rgba(0,0,0,0.6);
+}
+.erweima{
+    width: 0.33rem;
+    height: 0.25rem;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    font-family: "iconfont";
+    color: rgba(0,0,0,0.6);
+
+}
+#banner{
+   width: 100%;
+    height: 100%;
+    margin-top:0.24rem;
+    /*background: #e4b9c0;*/
+}
+.bannerContent{
+    width: 7.5rem;
+    height: 4rem;
+    box-shadow: 0 5px 26px 0 rgba(83 170 45 0.63);
+    margin: 0 auto;
+    position: relative;
+}
+.imagebox{
+    width: 7.02rem;
+    height:3.97rem ;
+    margin: 0 auto;
+    background: yellow;
+    position: relative;
+    border-radius: 0.5rem;
+}
+.bannerItem{
+    width: 7.02rem;
+    height:3.97rem ;
+    /*background: #cccccc;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bannerItem img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.imagebox li.active{
+    z-index: 1;
+}
+.pagerBox{
+    width: 1.12rem;
+    height: 0.14rem;
+    /*background: yellow;*/
+    position: absolute;
+    top: 0.29rem;
+    right:0.63rem ;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+.pagerBox li{
+    width:0.14rem ;
+    height:0.14rem;
+    border-radius: 50%;
+    background: white;
+
+}
+#catagory{
+    width: 6.73rem;
+    height: 3.96rem;
+    margin: 0.24rem auto;
+    /*background: #cccccc;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.title{
+    display: block;
+    width: 1.47rem;
+    height: 1.98rem;
+    float: left;
+    /*background: yellow;*/
+
+}
+.title img{
+    width: 1.47rem;
+    display: block;
+    height: 1.47rem;
+}
+.title p{
+    width: 1.47rem;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    font-size: 0.24rem;
+    margin-top: 0.11rem;
+    color: rgba(0,0,0,0.8);
+    text-align: center;
+}
+#tuijian{
+    width: 100%;
+    height: 11.3rem;
+    box-shadow: 0 5px 26px 0 rgba(83 170 45 0.63);
+    margin-top:0.24rem;
+    /*background: #ec971f;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*position: relative;*/
+}
+.tuijiancontent{
+    width: 7.5rem;
+    height:5.2rem ;
+    margin: 0 auto;
+    /*background: yellow;*/
+    /*position: relative;*/
+}
+.contentList{
+    width: 7.5rem;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 0.3rem;
+    margin-bottom: 0.15rem;
+}
+.biaoti{
+    width: 100%;
+    height: 1.0rem;
+    text-align: center;
+}
+
+.contentList h3{
+    color: #333333;
+    margin-top: 0.1rem;
+}
+.contentList i img{
+    margin-right: 0.3rem;
+}
+.select{
+    width: 1.4rem;
+    height:0.36rem ;
+    float: right;
+    border-radius: 0.05rem;
+    background: #ec941f;
+    color: white;
+    margin-top: 0.05rem;
+    line-height: 0.36rem;
+    text-align: center;
+}
+#dingzhi{
+    width:100%;
+    height: 100%;
+    box-shadow: 0 5px 26px 0 rgba(83 170 45 0.63);
+    margin-top:0.4rem;
+    /*background: #5cb85c;*/
+}
+.dingzhiContent {
+    width: 7.02rem;
+    height: 6.55rem;
+    margin: 0 auto;
+    /*background: yellow;*/
+}
+.dingstar{
+    width: 100%;
+    height: 7.2rem;
+}
+.dingzhiList{
+    width: 100%;
+    height:1.65rem;
+    background: #e3e3e3;
+    margin-bottom:0.3rem ;
+}
+.dingzhiList .content{
+    width: 5.36rem;
+    height:1.45rem ;
+    /*background: #ec971f;*/
+    margin-top: 0.11rem;
+    position: relative;
+    float: left;
+}
+.dingzhiList img{
+    margin: 0.15rem;
+    float: left;
+}
+.dingzhiList h3{
+    font-weight: 400;
+    color: #333333;
+    float: left;
+    margin:0 0.2rem;
+}
+.first{
+    width: 1.2rem;
+    height: 0.4rem;
+    margin: 0.1rem 0.2rem;
+    margin-right: 0.3rem;
+    float: left;
+    background: fuchsia;
+    color: white;
+    text-align: center;
+    line-height: 0.4rem;
+
+}
+
+.liBox,.liBox1{
+    width: 100%;
+    height: 0.65rem;
+    /*background: green;*/
+    display: flex;
+    justify-content: flex-start;
+}
+.liBox li{
+    float: left;
+    margin-right: 0.06rem;
+}
+.liBox li i img{
+    width: 0.30rem;
+    height: 0.23rem;
+}
+.liBox li span{
+    text-align: center;
+   line-height: 0.5rem;
+}
+#bottom{
+    width: 100%;
+    height:1.5rem;
+    margin-top: 0.24rem;
+    position: fixed;
+    bottom: 0;
+    /*background: palevioletred;*/
+}
+
+.littlebox{
+    width:7.5rem ;
+    height: 1.5rem;
+    background: whitesmoke;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+
+}
+.square{
+    margin: 0  0.6rem;
+}
+.square img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.square p{
+    margin-left: 0.12rem;
+    font-size: 0.28rem;
+}

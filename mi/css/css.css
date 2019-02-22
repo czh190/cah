@@ -1,0 +1,670 @@
+@import "base.css";
+.topBar{
+    width: 100%;
+    height: 40px;
+    background: #333333;
+}
+.content{
+     width: 1226px;
+     height: 100%;
+     margin: 0 auto;
+     /*background: #333333;*/
+
+ }
+.barNav{
+    /*width: 677px;*/
+    height: 100%;
+    float: left;
+    font-size: 12px;
+    color: #b0b0b0;
+    line-height: 40px;
+}
+.barNav a,.barInfo a{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.barNav a:hover, .barInfo a:hover{
+    color: #ff6700;
+    transition: none;
+}
+.barCart{
+    width: 120px;
+    height: 100%;
+    float: right;
+    /*background: #424242;*/
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+}
+.barCart a{
+    color: #b0b0b0;
+}
+/*.barCart .iconfont{*/
+    /*color: gold;*/
+    /*font-size: 10px;*/
+    /*text-align: center;*/
+    /*line-height: 40px;*/
+/*}*/
+.barCart a:hover{
+    color: #ff6700;
+}
+.barInfo{
+    width: 142px;
+    height: 100%;
+    float: right;
+    line-height: 40px;
+    padding: 0 10px;
+}
+/*topBar*/
+.header{
+    width: 1226px;
+    height: 100px;
+    /*background: #16b0bc;*/
+    margin: 0 auto;
+}
+/*.headerContent{*/
+    /*width: 1226px;*/
+/*}*/
+.headerContent img{
+    width: 60px;
+    height: 60px;
+    padding: 20px 0;
+    float: left;
+    margin-right: 40px;
+
+    /*text-align: center;*/
+}
+.headerContent .title{
+    width: 820px;
+    height: 88px;
+    float: left;
+    display: block;
+    padding: 12px 0 0 30px;
+    background: white;
+
+
+}
+.headerContent .title li a{
+    font-size: 16px;
+    color: #333333;
+    display: block;
+    float: left;
+    padding: 26px 10px 38px;
+}
+.headerContent .title li a:hover{
+    color: #ff6700;
+}
+.headerSearch .Search{
+    width: 224px;
+    height: 48px;
+    line-height: 48px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 26px;
+}
+.headerSearch .Submit{
+     float: right;
+     width: 52px;
+     height: 48px;
+     line-height: 48px;
+     margin-top: 26px;
+     outline: 0;
+     border: 1px solid #333333;
+     background: white;
+ }
+.headerSearch .Submit:hover{
+   background: #ff6700;
+}
+.banner{
+    height: 460px;
+    background: blueviolet;
+    position: relative;
+}
+.imgbox{
+    width: 100%;
+    height: 100%;
+
+}
+.imgbox li , .imgbox li a , .imgbox li a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.imgbox li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition:all 0.8s ;
+    /*opacity: 0.8;*/
+}
+#pageBox{
+    width: 100px;
+    height: 10px;
+    /*background: #ff6700;*/
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#pageBox>li{
+    width: 6px;
+    height: 6px;
+    background: white;
+    border: 2px solid #cccccc;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+#pageBox>li.active{
+    border: 2px solid #cccccc;
+    background: #aaaaaa;
+}
+ul.aslide{
+    width: 234px;
+    height: 420px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    padding: 20px 0;
+    background: rgba(0,0,0,0.5);
+
+}
+.aslide .aslideList{
+    width: 100%;
+    height: 42%;
+}
+.aslideList a{
+    width: 174px;
+    height: 42px;
+    font-size: 14px;
+    padding: 0 30px;
+    display: block;
+    color: #ffffff;
+    line-height: 42px;
+}
+.aslideList a:hover{
+    background: #ff6700;
+}
+.aslideList a i{
+    float: right;
+    font-size: 14px;
+}
+.selectContent{
+    width: 1224px;
+    height: 170px;
+    margin: 0 auto;
+    background:#f5f5f5;
+    margin-top: 14px;
+
+}
+ul.selectList{
+    width: 234px;
+    height: 170px;
+    /*background: fuchsia;*/
+    float: left;
+    text-align: center;
+
+}
+
+.selectList li{
+    width: 71px;
+    height: 74px;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    float: left;
+    position: relative;
+    display: block;
+    padding: 10px 3px 0;
+    background: rgba(0,0,0,0.5);
+    line-height: 20px;
+
+}
+.selectList li a{
+    font-size: 12px;
+    color: white;
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+}
+.selectList li a:hover{
+    color: #ff6700;
+}
+ul.selectList2{
+    width: 316px;
+    height: 170px;
+    float: left;
+    display: inline-block;
+ margin-left: 14px;
+}
+ul.selectList2 a img{
+    width: 316px;
+    height: 170px;
+}
+.shanContent{
+    width: 1226px;
+    position:relative;
+    padding-bottom: 40px;
+    /*background: blue;*/
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+.shanContent h2{
+    margin: 0;
+    font-weight: 300;
+    line-height: 58px;
+    color: #333333;
+}
+.shanInfo{
+    width: 1226px;
+    height: 340px;
+    /*background: blueviolet;*/
+}
+.shanInfo .shantitle{
+      width: 234px;
+      height: 300px;
+      background: bisque;
+      display: block;
+      padding-top: 39px;
+      border-top-width: 1px;
+      border-top-style: solid;
+      border-top-color: #333333;
+      float: left;
+      text-align: center;
+       margin: 0 auto;
+
+  }
+.shantitle h2{
+    color: red;
+    font-weight: 400;
+    margin-bottom:15px;
+}
+.shantitle p{
+    color: #333333;
+    margin-top:15px;
+    margin-bottom: 20px;
+}
+.shantitle .box{
+    text-align: center;
+    padding-left: 62px;
+}
+.shantitle .box li{
+    width: 30px;
+    height: 30px;
+    /*background: #333333;*/
+    float: left;
+    margin-right: 10px;
+    display: inline-block;
+    color: white;
+
+
+}
+.box .ling{
+    text-align: center;
+   line-height: 30px;
+}
+.ling{
+    margin: 0 auto;
+}
+.shanList li{
+    width: 234px;
+    height: 300px;
+    background:#f5f5f5;
+    display: inline-block;
+     float: left;
+    text-align: center;
+}
+
+.shanList .shanfirst{
+    padding-top: 39px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: darkorchid;
+    margin-left: 14px;
+}
+.shanList .shansecond{
+    padding-top: 39px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #C3E40B;
+    margin-left: 14px;
+}
+.shanList .shanthird{
+      padding-top: 39px;
+      border-top-width: 1px;
+      border-top-style: solid;
+      border-top-color: gold;
+    margin-left: 14px;
+  }
+.shanList .shanfour{
+    padding-top: 39px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: green;
+    margin-left: 14px;
+}
+.pictureHello {
+    width: 1226px;
+    height: 120px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.pictureHello a img{
+    width: 1226px;
+    height: 120px;
+}
+.shanList li a img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.shanList li a h4{
+    margin-top: 30px;
+    font-weight: 500;
+    color: #333333;
+}
+.shanList li a p, .shanList li a span{
+    font-size: 14px;
+     color: #b0b0b0;
+    line-height: 30px;
+}
+.shouji,.jiadian{
+    width: 100%;
+    height: 830px;
+    background:#f5f5f5;
+    position: relative;
+    padding-bottom: 40px;
+}
+.shoujiContent,.jiadianContent{
+    width: 1226px;
+    height: 670px;
+    /*background: #C3E40B;*/
+    margin: 0 auto;
+}
+.shoujiContent .title, .jiadianContent .title{
+    width: 100%;
+    height: 56px;
+    /*background: #16b0bc;*/
+    margin: 0 auto;
+}
+.shoujiContent .Content, .jiadianContent .Content{
+    width: 100%;
+    height: 614px;
+    /*background: #ff6700;*/
+
+}
+.shoujiContent .title  h2, .jiadianContent .title h2{
+    font-weight: 300;
+    line-height: 56px;
+    display: inline-block;
+    color: #333333;
+
+}
+.shoujiContent .title a, .jiadianContent .title a{
+    color: #333333;
+    line-height: 56px;
+    float: right;
+    margin-left:30px ;
+}
+.shoujiContent .title a:hover{
+   color: #ff6700;
+}
+.jiadianContent .title a:hover{
+    color: #ff6700;
+    text-decoration: underline;
+}
+.left, .jiadianleft{
+    width: 234px;
+    height: 614px;
+    float: left;
+    /*background: #333333;*/
+    text-align: center;
+}
+.left a img{
+    width: 234px;
+    height: 614px;
+}
+.right , .jiadianright{
+    float: left;
+    width: 992px;
+    height: 614px;
+    /*background: red;*/
+}
+.jiadianContent .jiandianList{
+    width: 234px;
+    height: 300px;
+    margin-bottom: 14px;
+    background:white;
+    text-align: center
+}
+.rightContent, .jiandianrightContent{
+    width: 100%;
+    height: 100%;
+    /*background: #333333;*/
+}
+.rightContent .rightList,.jiandianrightContent .jiadianrightList{
+    width: 234px;
+    height: 260px;
+    padding: 20px 0;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: white;
+    float: left;
+    text-align: center;
+}
+.rightList a img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
+.jiadianrightList a img,.jiadianrightList a img{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    display: block;
+}
+.jiandianList a img{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: block;
+}
+.rightList a h4, .jiadianrightList a h4,.jiandianList a h4,.jiandianList a h4{
+    margin-top: 30px;
+    font-weight: 500;
+    color: #333333;
+}
+.rightList a p, .rightList a span,.jiadianrightList a p,.jiadianrightList a span,.jiandianList a span,.jiandianList a p{
+    font-size: 14px;
+    color: #b0b0b0;
+    line-height: 30px;
+}
+.pictureTehui {
+    width: 1226px;
+    height: 120px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 40px;
+}
+.pictureTehui a img{
+    width: 1226px;
+    height: 120px;
+}
+.jiadianContent .jiandianleftList{
+    width: 234px;
+    height: 300px;
+    margin-bottom: 14px;
+    /*text-align: center*/
+}
+.jiandianleftList a img{
+    width: 234px;
+    height:300px ;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+    background:white;
+}
+.container{
+    width: 1226px;
+    height: 201px;
+    /*background: #cccccc;*/
+    margin: 0 auto;
+}
+.server{
+    height: 25px;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.serverList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+}
+.serverList li{
+    width: 19.8%;
+    height: 25px;
+    border-right: 1px solid #e0e0e0;
+    text-align: center;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.serverList li a{
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    text-decoration: none;
+    color: #616161;
+}
+.serverList li a:hover{
+    color: #ff6700;
+}
+.footList{
+    /*height: 100%;*/
+    padding: 30px 0;
+    text-align: center;
+}
+.col-link{
+    float: left;
+    width: 160px;
+    height: 120px;
+    margin: 0;
+    /*background: gold;*/
+
+}
+.col-link dt{
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #333333;
+    /*border: 2px solid red;*/
+}
+.col-link dd{
+    margin: 10px 0 0;
+    font-size:12px;
+}
+.col-link dd a:hover{
+    color: #ff6700;
+}
+.col-content{
+    width: 251px;
+    height: 112px;
+    float: right;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #333333;
+
+}
+.phone{
+    margin: 0 0 5px;
+    font-size: 22px;
+    line-height: 1;
+    color:#ff6700;
+}
+.btn{
+    margin: 0 auto;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    background: #ffffff;
+    border:1px solid #ec971f;
+    margin-top: 20px;
+}
+.btn:hover{
+    background: #ff6700;
+    color: white;
+}
+
+
+.bottom{
+    padding: 30px 0;
+    width: 100%;
+    height: 150px;
+    background:#f5f5f5;
+}
+.bottomContent{
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+    background:#f5f5f5;
+    position: relative;
+}
+.bottomContent img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+
+}
+.text{
+    width: 100%;
+    height: 120px;
+    margin-left: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    line-height: 15px;
+    color: #cccccc;
+}
+.text a{
+    color: #cccccc;
+}
+.text a:hover{
+    color:#ff6700;
+}
+.Picture{
+    width: 100%;
+    /*height: 100%;*/
+}
+.Picture img{
+    margin-top:5px;
+    width: auto;
+    height: 28px;
+}
+.bottomtext{
+    width: 100%;
+    text-align: center;
+    color: #737373;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "Microsoft YaHei UI Light";
+    position: absolute;
+    bottom: 5px;
+}

@@ -1,0 +1,265 @@
+html,body,h1,h2,h3,h4,h5,h6,p,pre,ol,ul,li,form,input,textarea{
+    margin: 0;
+    padding: 0;
+    list-style: none;   /*列表样式*/
+}
+body{
+    font: 16px "Microsoft YaHei UI", sans-serif;
+    color: #333333;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+div{
+    width: 100%;
+    height: 79px;
+}
+/*默认样式*/
+/*<!--nar样式-->*/
+.nav{
+    width: 100%;
+    height: 79px;
+    background: white;
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    top: 0;
+
+}
+/*<!--narContent样式-->*/
+.navContent{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*<!--logo样式-->*/
+.logo{
+    width:150px;
+    height:50px;
+    float: left;
+    margin-top: 14px;opacity: 0.5;
+}
+/*行内元素*/
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*img样式*/
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navList li{
+    width: 86px;
+    height: 100%;
+    float: left;
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: color linear .5s;
+}
+.navList li a:hover{
+    color: #16b0bc;
+}
+/*<!--narList样式-->*/
+.navList{
+    width: 602px;
+    height: 100%;
+    float:right ;
+
+}
+
+.title{
+    width: 100%;
+    height: 100px;
+    background: whitesmoke;
+    text-align: center;
+    line-height: 100px;
+}
+.title p{
+    font-size: 35px;
+    font-weight: 500;
+    color:#f67a82;;
+
+}
+.banner{
+    width: 100%;
+    height:100%;
+
+    padding: 30px 0;
+    background: whitesmoke;
+
+}
+.Content{
+    width: 100%;
+    height: 100%;
+    /*background: #ec971f;*/
+    display: flex;
+    justify-content: center;
+
+}
+.leftContent{
+    width: 1100px;
+    height: 100%;
+    padding: 30px;
+    background: white;
+}
+.List{
+    width: 100%;
+    height: 100%;
+}
+.liList{
+    width: 100%;
+    height: 240px;
+    border-bottom: 2px solid #f0f2f5;
+    /*background: #C3E40B;*/
+    margin-bottom: 30px;
+}
+.liList i img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 20px;
+}
+.text{
+    width: 880px;
+    height: 240px;
+    float: left;
+    /*background: #f67a82;*/
+}
+.text h4{
+    font-size: 28px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.text h4 a:hover{
+    color: #249aff;
+    text-decoration: underline;
+}
+.wenzi{
+    font-size: 18px;
+    color: #5e5e5e;
+    /*margin-bottom: 30px;*/
+}
+.left10{
+    margin-left: 10px;
+}
+.left10 img{
+    width: 25px;
+    height: 25px;
+    margin:-5px 5px;
+}
+.info{
+    color: #737373;
+    margin-top: 30px;
+}
+.rightContent{
+    width:340px;
+    height:420px;
+    background: white;
+    padding: 20px;
+    margin-left: 30px;
+}
+.sousuo{
+    width: 305px;
+    height: 36px;
+    border: 2px solid #cccccc;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 6px 15px;
+    line-height: 36px;
+
+}
+.sousuo span{
+    color: #737373;
+}
+.sousuo img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    float: right;
+}
+.tuijian{
+    width: 335px;
+    height: 260px;
+    margin-top: 20px;
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+}
+.tuijianList{
+    width: 335px;
+    height: 50px;
+    border: 2px solid #cccccc;
+}
+.tuijianList a p{
+    font-size: 20px;
+    font-weight:400;
+    margin-left: 10px;
+    line-height: 50px;
+}
+.tuijianList a p:hover,.rightContent a h4:hover{
+    color: #249aff;
+    text-decoration: underline;
+}
+
+.tuijian h4,.rightContent h4{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+/*<!--narContent样式-->*/
+
+
+
+
+
+
+
+
+.bottom{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    margin: 0 auto;
+    padding: 10px 0 20px;
+    margin-top: 20px;
+
+}
+.bottom .TextContent{
+    width:1170px ;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    /*background: white;*/
+}
+.TextContent img{
+    width: 30px;
+    height: 30px;
+    padding:10px;
+}
+.TextContent p{
+    font-size: 14px;
+    color: #737373;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.TextContent pre a{
+    color: #249aff;
+    font-size: 16px;
+    line-height: 5px;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+.TextContent pre a:hover{
+    text-decoration: underline;
+
+}
