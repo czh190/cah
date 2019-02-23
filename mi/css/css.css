@@ -174,7 +174,7 @@ ul.aslide{
 }
 .aslide .aslideList{
     width: 100%;
-    height: 42%;
+    height: 42px;
 }
 .aslideList a{
     width: 174px;
